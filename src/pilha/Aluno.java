@@ -1,0 +1,37 @@
+package pilha;
+
+public class Aluno {
+	
+	private String nome;
+	private String matricula;
+	private String curso;
+	private int colocacao;
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getMatricula() {
+		return matricula;
+	}
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
+	public String getCurso() {
+		return curso;
+	}
+	public void setCurso(String curso) {
+		this.curso = curso;
+	}
+	public int getColocacao() {
+		return colocacao;
+	}
+	public void setColocacao(int colocacao) {
+		this.colocacao = colocacao;
+	}
+	
+		
+	
+}
